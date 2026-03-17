@@ -132,6 +132,15 @@ http://localhost:3000
 
 ---
 
+## Demonstração do Projeto
+
+O projeto está disponível em: https://blazor-biblioteca-frontend.onrender.com/
+
+O Frontend e o Backend foram publicados no Render.com, e o banco de dados está hospedado no Supabase.
+
+- Observação sobre o backend:
+  Por limitações da Render, o backend "dorme" quando não é acessado por algum tempo. Isso significa que, na primeira vez que você acessar a aplicação após algum período de inatividade (aproximadamente 15 minutos), o backend pode demorar alguns segundos para iniciar. Para facilitar, incluímos na página inicial um componente que verifica automaticamente quando o backend está ativo e pronto para uso.
+
 ## Testando a API com Postman
 
 Para facilitar os testes dos endpoints, o projeto inclui uma **coleção do Postman** com todas as requisições já configuradas.
